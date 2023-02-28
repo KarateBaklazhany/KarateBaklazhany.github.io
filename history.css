@@ -1,0 +1,81 @@
+body {
+    /* background-image: url(/fone.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-md-6 {
+    
+}
+
+.text {
+    
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(137, 137, 137, 0.198);
+    backdrop-filter: blur(8px);
+    box-shadow:0 1px 60px rgba(124, 124, 124, 0.446);
+
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-delay: .1s;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotocka img {
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.fotocka {
+    box-shadow:0 1px 60px rgba(124, 124, 124, 0.446);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(137, 137, 137, 0.198);
+    backdrop-filter: blur(8px);
+
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-delay: .1s;
+    
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.block {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+.text:hover {
+    transform: scale(1.1);
+}
+
+.fotocka:hover {
+    transform: scale(1.1);
+}

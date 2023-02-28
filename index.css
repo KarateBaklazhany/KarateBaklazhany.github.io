@@ -1,0 +1,46 @@
+.foto img {
+    height: 500px;
+}
+
+.main-text h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+    /* background-color: red; */
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Кнопка */
+
+.battion a{
+    color: black;
+    text-decoration: none;
+   
+}
+.battion {
+    background-color: gray;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    
+}
+
+.fone-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battion:hover {
+    background-color: rgb(158, 156, 156);
+    box-shadow:0 1px 40px rgb(158, 156, 156);
+}

@@ -1,2 +1,2 @@
 # KarateBaklazhany.github.io
-# Managed by Nabatov
+Managed by Nabatov
